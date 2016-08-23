@@ -15,11 +15,9 @@ class ComposerStaticInit1b71cc11d7341969a3f5ae5270e66035
         'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
-        '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         'def43f6c87e4f8dfd0c9e1b1bab14fe8' => __DIR__ . '/..' . '/symfony/polyfill-iconv/bootstrap.php',
         '5255c38a0faeba867671b61dfda6d864' => __DIR__ . '/..' . '/paragonie/random_compat/lib/random.php',
         'd9d39f82a605ebe5918f683dd402334c' => __DIR__ . '/..' . '/padraic/humbug_get_contents/src/function.php',
-        'e7223560d890eab89cda23685e711e2c' => __DIR__ . '/..' . '/psy/psysh/src/Psy/functions.php',
         'decc78cc4436b1292c6c0d151b19445c' => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib/bootstrap.php',
     );
 
@@ -27,6 +25,7 @@ class ComposerStaticInit1b71cc11d7341969a3f5ae5270e66035
         'p' => 
         array (
             'phpseclib\\' => 10,
+            'phpDocumentor\\Reflection\\' => 25,
         ),
         'c' => 
         array (
@@ -41,9 +40,9 @@ class ComposerStaticInit1b71cc11d7341969a3f5ae5270e66035
             'Zend\\Escaper\\' => 13,
             'Zend\\Diactoros\\' => 15,
         ),
-        'X' => 
+        'W' => 
         array (
-            'XdgBaseDir\\' => 11,
+            'Webmozart\\Assert\\' => 17,
         ),
         'S' => 
         array (
@@ -52,7 +51,6 @@ class ComposerStaticInit1b71cc11d7341969a3f5ae5270e66035
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Polyfill\\Iconv\\' => 23,
             'Symfony\\Component\\Yaml\\' => 23,
-            'Symfony\\Component\\VarDumper\\' => 28,
             'Symfony\\Component\\Validator\\' => 28,
             'Symfony\\Component\\Translation\\' => 30,
             'Symfony\\Component\\Serializer\\' => 29,
@@ -81,9 +79,7 @@ class ComposerStaticInit1b71cc11d7341969a3f5ae5270e66035
         ),
         'P' => 
         array (
-            'Psy\\' => 4,
             'Psr\\Http\\Message\\' => 17,
-            'PhpParser\\' => 10,
         ),
         'M' => 
         array (
@@ -113,8 +109,6 @@ class ComposerStaticInit1b71cc11d7341969a3f5ae5270e66035
         ),
         'C' => 
         array (
-            'Consolidation\\OutputFormatters\\' => 31,
-            'Consolidation\\AnnotatedCommand\\' => 31,
             'Composer\\Semver\\' => 16,
             'Composer\\Installers\\' => 20,
         ),
@@ -133,6 +127,12 @@ class ComposerStaticInit1b71cc11d7341969a3f5ae5270e66035
         'phpseclib\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib',
+        ),
+        'phpDocumentor\\Reflection\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
+            1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
+            2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
         ),
         'cweagans\\Composer\\' => 
         array (
@@ -162,9 +162,9 @@ class ComposerStaticInit1b71cc11d7341969a3f5ae5270e66035
         array (
             0 => __DIR__ . '/..' . '/zendframework/zend-diactoros/src',
         ),
-        'XdgBaseDir\\' => 
+        'Webmozart\\Assert\\' => 
         array (
-            0 => __DIR__ . '/..' . '/dnoegel/php-xdg-base-dir/src',
+            0 => __DIR__ . '/..' . '/webmozart/assert/src',
         ),
         'Symfony\\Polyfill\\Php55\\' => 
         array (
@@ -185,10 +185,6 @@ class ComposerStaticInit1b71cc11d7341969a3f5ae5270e66035
         'Symfony\\Component\\Yaml\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/yaml',
-        ),
-        'Symfony\\Component\\VarDumper\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/var-dumper',
         ),
         'Symfony\\Component\\Validator\\' => 
         array (
@@ -278,17 +274,9 @@ class ComposerStaticInit1b71cc11d7341969a3f5ae5270e66035
         array (
             0 => __DIR__ . '/..' . '/gabordemooij/redbean/RedBeanPHP',
         ),
-        'Psy\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/psy/psysh/src/Psy',
-        ),
         'Psr\\Http\\Message\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/http-message/src',
-        ),
-        'PhpParser\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
         ),
         'Masterminds\\' => 
         array (
@@ -346,14 +334,6 @@ class ComposerStaticInit1b71cc11d7341969a3f5ae5270e66035
         array (
             0 => __DIR__ . '/..' . '/doctrine/cache/lib/Doctrine/Common/Cache',
         ),
-        'Consolidation\\OutputFormatters\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/consolidation/output-formatters/src',
-        ),
-        'Consolidation\\AnnotatedCommand\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/consolidation/annotated-command/src',
-        ),
         'Composer\\Semver\\' => 
         array (
             0 => __DIR__ . '/..' . '/composer/semver/src',
@@ -378,13 +358,6 @@ class ComposerStaticInit1b71cc11d7341969a3f5ae5270e66035
     );
 
     public static $prefixesPsr0 = array (
-        'p' => 
-        array (
-            'phpDocumentor' => 
-            array (
-                0 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
-            ),
-        ),
         'o' => 
         array (
             'org\\bovigo\\vfs\\' => 
@@ -417,17 +390,6 @@ class ComposerStaticInit1b71cc11d7341969a3f5ae5270e66035
                 0 => __DIR__ . '/..' . '/phpspec/prophecy/src',
             ),
         ),
-        'J' => 
-        array (
-            'JakubOnderka\\PhpConsoleHighlighter' => 
-            array (
-                0 => __DIR__ . '/..' . '/jakub-onderka/php-console-highlighter/src',
-            ),
-            'JakubOnderka\\PhpConsoleColor' => 
-            array (
-                0 => __DIR__ . '/..' . '/jakub-onderka/php-console-color/src',
-            ),
-        ),
         'E' => 
         array (
             'Egulias\\' => 
@@ -441,10 +403,6 @@ class ComposerStaticInit1b71cc11d7341969a3f5ae5270e66035
         ),
         'D' => 
         array (
-            'Drush' => 
-            array (
-                0 => __DIR__ . '/..' . '/drush/drush/lib',
-            ),
             'Doctrine\\Common\\Lexer\\' => 
             array (
                 0 => __DIR__ . '/..' . '/doctrine/lexer/lib',
@@ -470,18 +428,10 @@ class ComposerStaticInit1b71cc11d7341969a3f5ae5270e66035
                 0 => __DIR__ . '/..' . '/dflydev/placeholder-resolver/src',
             ),
         ),
-        'C' => 
-        array (
-            'Consolidation' => 
-            array (
-                0 => __DIR__ . '/..' . '/drush/drush/lib',
-            ),
-        ),
     );
 
     public static $classMap = array (
         'CallbackFilterIterator' => __DIR__ . '/..' . '/symfony/polyfill-php54/Resources/stubs/CallbackFilterIterator.php',
-        'Console_Table' => __DIR__ . '/..' . '/pear/console_table/Table.php',
         'Drupal' => __DIR__ . '/../..' . '/web/core/lib/Drupal.php',
         'DrupalProject\\composer\\ScriptHandler' => __DIR__ . '/../..' . '/scripts/composer/ScriptHandler.php',
         'Drupal\\Component\\Utility\\Timer' => __DIR__ . '/../..' . '/web/core/lib/Drupal/Component/Utility/Timer.php',
