@@ -1,0 +1,8 @@
+description: Restリソースを無効化する
+arguments:
+    resource-id: 'Rest ID'
+    states: 無効にするRestリソースのステートキー
+questions:
+    resource-id: 'Rest ID'
+messages:
+    invalid-rest-id: 'Rest ID %s は不正な値です。'
